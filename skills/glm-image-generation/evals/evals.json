@@ -1,0 +1,36 @@
+{
+  "skill_name": "glm-image-generation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "一只可爱的小猫咪，坐在阳光明媚的窗台上，背景是蓝天白云",
+      "expected_output": "生成一张包含小猫咪的 PNG 图片，保存在 temp/glm_images/ 目录下",
+      "expectations": [
+        "成功调用 GLM API 生成图像",
+        "图片文件被保存到正确的目录",
+        "文件名包含时间戳和模型名称"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "未来科技城市夜景，高楼大厦，霓虹灯，赛博朋克风格",
+      "expected_output": "生成一张赛博朋克风格的城市夜景图片，使用默认模型 cogview-3-flash",
+      "expectations": [
+        "使用默认模型 cogview-3-flash",
+        "生成 1024x1024 尺寸的图像",
+        "图片成功保存"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "中国风山水画，青山绿水，亭台楼阁",
+      "expected_output": "生成一张中国风山水画，使用 1920x1080 尺寸",
+      "files": [],
+      "expectations": [
+        "使用正确的尺寸 1920x1080",
+        "图像风格符合中国山水画特征",
+        "图片文件正确保存"
+      ]
+    }
+  ]
+}

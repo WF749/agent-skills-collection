@@ -1,0 +1,23 @@
+{
+  "name": "agent-skills-collection",
+  "version": "1.0.0",
+  "description": "A collection of AI agent skills for Claude Code, Cursor, OpenCode, and more",
+  "keywords": [
+    "skills",
+    "agent",
+    "ai",
+    "claude-code",
+    "cursor",
+    "opencode"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biiigwang/agent-skills-collection.git"
+  },
+  "author": "biiigwang",
+  "license": "MIT",
+  "homepage": "https://github.com/biiigwang/agent-skills-collection#readme",
+  "bugs": {
+    "url": "https://github.com/biiigwang/agent-skills-collection/issues"
+  }
+}
